@@ -44,4 +44,6 @@ Plug 'sbl/scvim'
 " tulip!
 Plug 'file:///home/jneen/src/tulip', { 'rtp': 'vim/' }
 
+Plug 'Shougo/unite.vim'
+
 call plug#end()

@@ -1,5 +1,3 @@
-set encoding=utf-8
-
 filetype off
 
 source ~/.config/nvim/plug.vim
@@ -8,7 +6,7 @@ filetype plugin indent on
 syntax on
 
 let g:ackprg="ack -H --nocolor --nogroup --column"
-let g:ctrlp_working_path_mode = 'a'
+let g:ctrlp_working_path_mode = '0'
 let g:slimv_swank_clojure = '! xterm -e lein ritz &' 
 
 let g:sclangTerm = "gnome-terminal -x $SHELL -ic"
@@ -49,6 +47,13 @@ nmap <Leader>a :Gcommit -av<cr>
 nmap <Leader>d :Gdiff<cr>
 nmap <Leader>t :CtrlP<cr>
 nmap <Leader>. :e .<cr>
+nmap <Leader>fs :w<cr>
+nmap <Leader>fed :e ~/.config/nvim/init.vim<cr>
+nmap <Leader>feR :so ~/.config/nvim/init.vim<cr>
+nmap <Leader>fj :Explore<cr>
+nmap <Leader>w <Tab>
+nmap <Leader>: :Unite command<cr>i
+nmap <Leader>qq :wqa<cr>
 
 set modeline
 set undofile
