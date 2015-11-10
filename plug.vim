@@ -2,8 +2,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call plug#begin('~/.vim/bundle')
 
-Plug 'junegunn/vim-plug'
-
 " thanks tpope
 
 Plug 'tpope/vim-commentary'
