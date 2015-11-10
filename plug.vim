@@ -13,8 +13,9 @@ Plug 'tpope/vim-dispatch'
 
 Plug 'mileszs/ack.vim'
 Plug 'michaeljsmith/vim-indent-object'
-
 Plug 'kien/ctrlp.vim'
+Plug 'Shougo/unite.vim'
+Plug 'scrooloose/nerdtree'
 
 " ~*~ ft-specific plugins ~*~
 
