@@ -24,10 +24,6 @@ colorscheme thankful_eyes
 let mapleader=" "
 set mouse=a
 
-" I use F1 as my tmux prefix.
-map <F1> <Nop>
-imap <F1> <Nop>
-
 set wildmenu
 set wildmode=longest,full " this doesn't seem to work :(
 
