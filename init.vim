@@ -43,7 +43,8 @@ nmap <Leader>a :Gcommit -av<cr>
 nmap <Leader>d :Gdiff<cr>
 nmap <Leader>t :CtrlP<cr>
 nmap <Leader>. :e .<cr>
-nmap <Leader>fs :w<cr>
+nmap <Leader>fs :wa<cr>
+nmap <Leader>fS :w<cr>
 nmap <Leader>fed :e ~/.config/nvim/init.vim<cr>
 nmap <Leader>feR :so ~/.config/nvim/init.vim<cr>
 nmap <Leader>fj :Explore<cr>
