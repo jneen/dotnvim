@@ -54,6 +54,9 @@ nmap <Leader>qq :wqa<cr>
 nmap <Leader>ft :NERDTreeToggle<cr>
 nmap <Leader><Tab> 
 
+" select the last selection operated on
+nnoremap <leader>V `[V`]
+
 
 set modeline
 set undofile
@@ -64,11 +67,8 @@ set backupdir=~/.vim/backup//
 
 set list listchars=tab:»\ ,trail:·
 
-" select the last selection operated on
-nnoremap <leader>V `[V`]
-
 " command line window
-" noremap : q:I
+noremap : q:I
 
 " neovim
 set ttimeout

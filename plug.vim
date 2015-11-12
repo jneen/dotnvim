@@ -41,8 +41,9 @@ Plug 'tpope/vim-markdown'
 Plug 'sbl/scvim'
 
 " tulip!
-Plug 'file:///home/jneen/src/tulip', { 'rtp': 'vim/' }
+Plug 'tulip-lang/tulip', { 'rtp': 'vim/' }
 
-Plug 'Shougo/unite.vim'
+" freebus
+Plug '~/cs/private/onto-tools'
 
 call plug#end()
