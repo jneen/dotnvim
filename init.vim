@@ -52,6 +52,8 @@ nmap <Leader>w <Tab>
 nmap <Leader>: :Unite command<cr>i
 nmap <Leader>qq :wqa<cr>
 nmap <Leader>ft :NERDTreeToggle<cr>
+nmap <Leader><Tab> 
+
 
 set modeline
 set undofile
