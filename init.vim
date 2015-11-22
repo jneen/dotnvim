@@ -52,8 +52,11 @@ nmap <Leader>ff :CtrlP<cr>
 nmap <Leader>fs :w<cr>
 nmap <Leader>fed :e ~/.config/nvim/init.vim<cr>
 nmap <Leader>feR :so ~/.config/nvim/init.vim<cr>
+nmap <Leader>fet :e ~/tmp/todo<cr>
+nmap <Leader>fes :e ~/tmp/scratch<cr>
 nmap <Leader>fj :Explore<cr>
 nmap <Leader>ft :NERDTreeToggle<cr>
+nmap <Leader>sh :noh<cr>
 nmap <Leader><Tab> 
 
 " quitting
