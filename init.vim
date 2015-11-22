@@ -5,9 +5,7 @@ source ~/.config/nvim/plug.vim
 filetype plugin indent on
 syntax on
 
-let g:ackprg="ack -H --nocolor --nogroup --column"
 let g:ctrlp_working_path_mode = '0'
-let g:slimv_swank_clojure = '! xterm -e lein ritz &' 
 
 let g:sclangTerm = "gnome-terminal -x $SHELL -ic"
 
