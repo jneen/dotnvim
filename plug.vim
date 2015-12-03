@@ -17,6 +17,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'Shougo/unite.vim'
 Plug 'scrooloose/nerdtree'
 
+Plug 'sophacles/vim-bundle-mako'
+
 " ~*~ ft-specific plugins ~*~
 
 " js
