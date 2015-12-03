@@ -42,38 +42,38 @@ noremap : q:A
 " navigation
 
 " git
-nmap <Leader>gs :Gstatus<cr>
-nmap <Leader>gc :Gcommit -v<cr>
-nmap <Leader>gd :Gdiff<cr>
+noremap <Leader>gs :Gstatus<cr>
+noremap <Leader>gc :Gcommit -v<cr>
+noremap <Leader>gd :Gdiff<cr>
 
 " files
-nmap <Leader>f. :e .<cr>
-nmap <Leader>ff :CtrlP<cr>
-nmap <Leader>fs :w<cr>
-nmap <Leader>fed :e ~/.config/nvim/init.vim<cr>
-nmap <Leader>feR :so ~/.config/nvim/init.vim<cr>
-nmap <Leader>fet :e ~/tmp/todo<cr>
-nmap <Leader>fes :e ~/tmp/scratch<cr>
-nmap <Leader>fj :Explore<cr>
-nmap <Leader>ft :NERDTreeToggle<cr>
-nmap <Leader>sh :noh<cr>
-nmap <Leader><Tab> 
+noremap <Leader>f. :e .<cr>
+noremap <Leader>ff :CtrlP<cr>
+noremap <Leader>fs :w<cr>
+noremap <Leader>fed :e ~/.config/nvim/init.vim<cr>
+noremap <Leader>feR :so ~/.config/nvim/init.vim<cr>
+noremap <Leader>fet :e ~/tmp/todo<cr>
+noremap <Leader>fes :e ~/tmp/scratch<cr>
+noremap <Leader>fj :Explore<cr>
+noremap <Leader>ft :NERDTreeToggle<cr>
+noremap <Leader>sh :noh<cr>
+noremap <Leader><Tab> 
 
 " quitting
-nmap <Leader>qq :wqa<cr>
+noremap <Leader>qq :wqa<cr>
 
 " window management
-nmap <Leader>w <Tab>
+noremap <Leader>w <Tab>
 
 " command mode
-nmap <Leader>: :Unite command<cr>i
+noremap <Leader>: :Unite command<cr>i
+
+" searching
+noremap <Leader>sh :noh<cr>
+noremap <Leader>ss /
 
 " select the last selection operated on
 nnoremap <leader>V `[V`]
-
-" searching
-nmap <Leader>sh :noh<cr>
-nmap <Leader>ss /
 
 set modeline
 set undofile
