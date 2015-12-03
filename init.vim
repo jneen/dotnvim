@@ -14,7 +14,6 @@ set autoindent expandtab shiftwidth=2 tabstop=2 softtabstop=2
 set splitright
 set splitbelow
 
-noremap <Tab> <C-w>
 noremap ' "+
 
 colorscheme thankful_eyes
@@ -63,7 +62,14 @@ noremap <Leader><Tab> 
 noremap <Leader>qq :wqa<cr>
 
 " window management
-noremap <Leader>w <Tab>
+nmap <Tab> <Leader>w
+noremap <Leader>wh <C-w>h
+noremap <Leader>wl <C-w>l
+noremap <Leader>wj <C-w>j
+noremap <Leader>wk <C-w>k
+noremap <Leader>wv <C-w>v
+noremap <Leader>ws <C-w>s
+noremap <Leader>wc <C-w>c
 
 " command mode
 noremap <Leader>: :Unite command<cr>i
@@ -72,8 +78,13 @@ noremap <Leader>: :Unite command<cr>i
 noremap <Leader>sh :noh<cr>
 noremap <Leader>ss /
 
+" terminals
+noremap <Leader>tt :terminal<cr>
+noremap <Leader>ts <C-w>s:terminal<cr>
+noremap <Leader>tv <C-w>v:terminal<cr>
+
 " select the last selection operated on
-nnoremap <leader>V `[V`]
+noremap <leader>V `[V`]
 
 set modeline
 set undofile
