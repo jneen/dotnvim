@@ -48,7 +48,8 @@ noremap <Leader>gd :Gdiff<cr>
 " files
 noremap <Leader>f. :e .<cr>
 noremap <Leader>ff :CtrlP<cr>
-noremap <Leader>fs :w<cr>
+noremap <Leader>fs :wa<cr>
+noremap <Leader>fS :w<cr>
 noremap <Leader>fed :e ~/.config/nvim/init.vim<cr>
 noremap <Leader>feR :so ~/.config/nvim/init.vim<cr>
 noremap <Leader>fet :e ~/tmp/todo<cr>
@@ -67,9 +68,14 @@ noremap <Leader>wh <C-w>h
 noremap <Leader>wl <C-w>l
 noremap <Leader>wj <C-w>j
 noremap <Leader>wk <C-w>k
+noremap <Leader>wH <C-w>H
+noremap <Leader>wL <C-w>L
+noremap <Leader>wJ <C-w>J
+noremap <Leader>wK <C-w>K
 noremap <Leader>wv <C-w>v
 noremap <Leader>ws <C-w>s
 noremap <Leader>wc <C-w>c
+noremap <Leader>wx <C-w>x
 
 " command mode
 noremap <Leader>: :Unite command<cr>i
