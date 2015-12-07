@@ -38,6 +38,8 @@ set ruler " line, column numbers
 " command line window
 noremap : q:A
 
+tnoremap <Esc><Esc> <C-\><C-n>
+
 " navigation
 
 " git
