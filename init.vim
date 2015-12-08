@@ -18,7 +18,8 @@ noremap ' "+
 
 colorscheme thankful_eyes
 
-let mapleader=" "
+let mapleader=' '
+let maplocalleader=','
 set mouse=a
 
 set wildmenu
