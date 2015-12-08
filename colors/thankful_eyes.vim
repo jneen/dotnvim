@@ -251,28 +251,29 @@ if s:low_color
   " Yellow, LightYellow
   " White
 
-  let s:slate_blue     = 'Black'
-  let s:krasna         = 'DarkGray'
-  let s:pink_merengue  = 'Magenta'
-  let s:go_get_it      = 'Green'
-  let s:schrill        = 'Yellow'
-  let s:chilly         = 'LightBlue'
-  let s:dune           = 'LightYellow'
-  let s:eggshell_cloud = 'LightBlue'
-  let s:unicorn        = 'LightGray'
-  let s:black          = 'DarkGray'
-  let s:scarletred2    = 'DarkRed'
-  " let s:go_get_it      = 
-  let s:butter3        = 'DarkYellow'
-  let s:backlit        = 'LightCyan'
-  let s:sandy          = 'LightYellow'
-  let s:cool_as_ice    = 'LightCyan'
-  let s:aluminium1     = 'White'
-  let s:yellow         = 'Yellow'
+  " let s:slate_blue     = 'Black'
+  " let s:krasna         = 'DarkGray'
+  " let s:pink_merengue  = 'Magenta'
+  " let s:go_get_it      = 'Green'
+  " let s:schrill        = 'Yellow'
+  " let s:chilly         = 'LightBlue'
+  " let s:dune           = 'LightYellow'
+  " let s:eggshell_cloud = 'LightBlue'
+  " let s:unicorn        = 'LightGray'
+  " let s:black          = 'DarkGray'
+  " let s:scarletred2    = 'DarkRed'
+  " " let s:go_get_it      = 
+  " let s:butter3        = 'DarkYellow'
+  " let s:backlit        = 'LightCyan'
+  " let s:sandy          = 'LightYellow'
+  " let s:cool_as_ice    = 'LightCyan'
+  " let s:aluminium1     = 'White'
+  " let s:yellow         = 'Yellow'
 else
-  let s:cool_as_ice    = '7ba5c8'
-  " let s:cool_as_ice    = '6c8b9f'
+  let s:cool_as_ice    = '6c8b9f'
   let s:slate_blue     = '4e5d62'
+  let s:dragon         = '38C46D'
+  let s:pool           = '4dc5c0'
   let s:eggshell_cloud = 'dee5e7'
   let s:krasna         = '122B3B'
   let s:aluminium1     = 'fefeec'
@@ -286,9 +287,32 @@ else
   let s:dune           = 'FFF0A6'
   let s:backlit        = '4DF4FF'
   let s:schrill        = 'ffb000'
+  let s:rose           = 'ffcfdb'
   let s:black          = '000000'
   let s:yellow         = 'c0c000'
 endif
+
+" neovim terminal
+let g:terminal_color_background = '#' . s:krasna
+let g:terminal_color_foreground = '#' . s:unicorn
+
+let g:terminal_color_0  = '#' . s:black
+let g:terminal_color_1  = '#' . s:scarletred2
+let g:terminal_color_2  = '#' . s:dragon
+let g:terminal_color_3  = '#' . s:butter3
+let g:terminal_color_4  = '#' . s:cool_as_ice
+let g:terminal_color_5  = '#' . s:pink_merengue
+let g:terminal_color_6  = '#' . s:pool
+let g:terminal_color_7  = '#' . s:unicorn
+
+let g:terminal_color_8  = '#' . s:slate_blue
+let g:terminal_color_9  = '#' . s:schrill
+let g:terminal_color_10 = '#' . s:go_get_it
+let g:terminal_color_11 = '#' . s:sandy
+let g:terminal_color_12 = '#' . s:chilly
+let g:terminal_color_13 = '#' . s:rose
+let g:terminal_color_14 = '#' . s:backlit
+let g:terminal_color_15 = '#' . s:dune
 
 " Global settings
 "           Group         Foreground        Background       Mode
@@ -347,3 +371,4 @@ if !has('gui_running')
 endif
 
 " vim: set fdl=0 fdm=marker:
+
