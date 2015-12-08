@@ -111,6 +111,7 @@ set list listchars=tab:»\ ,trail:·,precedes:↪,extends:↩,nbsp:˾
 set ttimeout
 set ttimeoutlen=0
 set matchtime=0
+set noshowmatch
 
 " let g:pyindent_continue = 'shiftwidth() / 2'
 " unlet g:pyindent_nested_paren
