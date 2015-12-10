@@ -47,6 +47,7 @@ tnoremap <Esc><Esc> <C-\><C-n>
 noremap <Leader>gs :Gstatus<cr>
 noremap <Leader>gc :Gcommit -v<cr>
 noremap <Leader>gd :Gdiff<cr>
+noremap <Leader>gb :Gblame<cr>
 
 " files
 noremap <Leader>f. :e .<cr>
